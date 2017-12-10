@@ -1,0 +1,8 @@
+cat.jpg
+index.js
+index1.js
+index2.js
+node_modules
+package-lock.json
+package.json
+tekst.txt
