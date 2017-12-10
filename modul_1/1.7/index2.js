@@ -3,7 +3,7 @@ var fs = require('fs');
 var fileName = 'myFiles.txt';
 var myFiles = '';
 
-fs.readdir('/home/olenda/CODE/KURSY/KODILLA/modul_1/1.7', function(err, files) {
+fs.readdir('./', function(err, files) {
 
 	for (var i = 0; i<files.length; i++) {
 		myFiles += files[i] + '\n';
